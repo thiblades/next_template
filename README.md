@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Use this Template
+
+```bash
+yarn create next-app MY_APP_NAME -e LINK_OF_THE_REPOSITORY
+```
+
 ## Getting Started
 
 First, run the development server:
