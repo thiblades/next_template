@@ -5,10 +5,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 `;
 
 export const MainContainer = styled.main`
   counter-reset: section 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0px auto;
   width: 100%;
   max-width: 1500px;

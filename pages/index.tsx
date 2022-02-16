@@ -1,4 +1,4 @@
-import { SEO } from "@components";
+import { SafeBox, SEO } from "@components";
 import Layout from "@layout/Layout";
 import type { GetStaticProps, NextPage } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -10,8 +10,12 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <SEO />
-        <p>{t("common:welcome")}</p>
-        <p>{t("about:name", { name: "Akim" })}</p>
+        <SafeBox>
+
+            <p>{t("common:welcome")}</p>
+            <p>{t("about:name", { name: "Akim" })}</p>
+         
+        </SafeBox>
       </Layout>
     </>
   );
