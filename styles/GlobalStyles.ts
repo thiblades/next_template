@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 16px;
-    background: radial-gradient(circle, rgba(0,0,3,1) 0%, rgba(170,119,28,1) 0%, rgba(252,246,186,1) 21%, rgba(251,245,183,1) 46%, rgba(255,255,255,1) 100%);
+    background: ${(props) => props.theme.colors.background_main};
     color: ${(props) => props.theme.colors.text.primary};
     cursor: default;
 

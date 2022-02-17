@@ -11,9 +11,9 @@ const Home: NextPage = () => {
       <Layout>
         <SEO />
         <SafeBox>
-
-            <p>{t("common:welcome")}</p>
-            <p>{t("about:name", { name: "Akim" })}</p>
+            <img src='/assets/box.png' style={{width: 100, height: 100, marginBottom:100}} /> 
+            <p>{t("common:welcome", { name: "Matthieu" })}</p>
+            <p>{t("about:name")}</p>
          
         </SafeBox>
       </Layout>
